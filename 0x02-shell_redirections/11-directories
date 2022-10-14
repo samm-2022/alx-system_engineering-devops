@@ -1,1 +1,2 @@
-#!/find . -type d -path './*' -print | wc -l
+#!/bin/bash
+find . -type d -path './*' -print | wc -l
